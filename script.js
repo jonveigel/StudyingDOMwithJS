@@ -11,3 +11,7 @@ console.log(myList.innerText);
 
 var myTitleex = document.getElementsByTagName("h1");
 console.log(myTitleex[0].innerText);
+
+var miniTitle = document.getElementsByClassName("minititle1")
+console.log(miniTitle);
+console.log(miniTitle[0].innerText);
