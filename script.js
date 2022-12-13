@@ -15,3 +15,12 @@ console.log(myTitleex[0].innerText);
 var miniTitle = document.getElementsByClassName("minititle1")
 console.log(miniTitle);
 console.log(miniTitle[0].innerText);
+
+var olList = document.querySelector("#myList #item1");
+console.log(olList.innerText);
+
+var olList2 = document.querySelector("#myList .item2");
+console.log(olList2.innerText);
+
+var olList3 = document.querySelector("ol #item3");
+console.log(olList3.innerText);
