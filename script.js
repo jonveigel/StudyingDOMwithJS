@@ -24,3 +24,9 @@ console.log(olList2.innerText);
 
 var olList3 = document.querySelector("ol #item3");
 console.log(olList3.innerText);
+
+var createElement = document.createElement("h3");
+var bodyFrom = document.querySelector("body #title2");
+var fatherElement = document.querySelector("#body1");
+
+fatherElement.insertBefore(createElement, bodyFrom);
