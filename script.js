@@ -30,3 +30,12 @@ var bodyFrom = document.querySelector("body #title2");
 var fatherElement = document.querySelector("#body1");
 
 fatherElement.insertBefore(createElement, bodyFrom);
+
+
+var newElement = document.createElement("p");
+var bodyFrom2 = document.querySelector("body #title2");
+var fatherElement2 = document.querySelector("#body1");
+fatherElement2.insertBefore(newElement, bodyFrom2);
+
+var newText = document.createTextNode("Aqui vai o texto!!!");
+newElement.appendChild(newText);
