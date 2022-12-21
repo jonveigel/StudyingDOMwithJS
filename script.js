@@ -39,3 +39,21 @@ fatherElement2.insertBefore(newElement, bodyFrom2);
 
 var newText = document.createTextNode("Aqui vai o texto!!!");
 newElement.appendChild(newText);
+
+
+var newElementLI = document.createElement("li");
+var text1 = document.createTextNode("Pera");
+newElementLI.appendChild(text1);
+document.getElementById("myList").appendChild(newElementLI);
+
+// outro metodo de adicionar!!
+
+var newItem = document.createElement("li");
+var text2 = document.createTextNode("Maçã");
+newItem.appendChild(text2);
+
+var item1 = document.getElementById("item1");
+var father = item1.parentNode;
+father.appendChild(newItem);
+
+
