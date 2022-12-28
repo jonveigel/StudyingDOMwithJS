@@ -56,4 +56,23 @@ var item1 = document.getElementById("item1");
 var father = item1.parentNode;
 father.appendChild(newItem);
 
+var btn1 = document.querySelector("#btn1");
+// console.log(btn1);
+
+var btn2 = document.querySelector("#btn2");
+// console.log(btn2);
+
+function test1() {
+    console.log("clicou no botão!!!");
+} 
+
+btn1.addEventListener("click", test1);
+
+var clickonMe = () => console.log("click to remove!!!");
+
+btn2.addEventListener("click", () => {
+    clickonMe()
+    btn1.removeEventListener("click", test1)
+});
+
 
